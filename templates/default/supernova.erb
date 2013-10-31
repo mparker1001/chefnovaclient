@@ -1,0 +1,11 @@
+[myaccount]
+OS_AUTH_URL=https://identity.api.rackspacecloud.com/v2.0/
+OS_VERSION=2.0
+OS_AUTH_SYSTEM=rackspace
+OS_REGION_NAME=DFW
+OS_SERVICE_NAME=cloudserversOpenStack
+OS_TENANT_NAME=<%= node['chefnovaclient']['username'] %>
+OS_USERNAME=<%= node['chefnovaclient']['username'] %>
+OS_PASSWORD=<%= node['chefnovaclient']['password'] %>
+OS_NO_CACHE=1
+NOVA_VOLUME_SERVICE_NAME=cloudBlockStorage
